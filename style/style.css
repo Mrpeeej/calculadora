@@ -64,3 +64,16 @@ button{
     margin-left: 10%;
     border-radius: 1ch;
 }
+
+#color{
+    background-color: white;
+    height: 80px;
+    width: 250px;
+    margin-left: 10%;
+    border-radius: 1ch;
+}
+
+#limpa{
+    margin-left: 10%;
+    margin-top: 5px;
+}

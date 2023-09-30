@@ -17,16 +17,18 @@
 
         <br><br>
         <label for="" class="num">Numero</label>
-        <input type="number" name="" id="caixaNum" min="0">
-        <button type="submit">Ok</button>
+        <input type="number" name="" id="caixaNum" min="1" autofocus>
+
+        <button type="submit" onclick="mult()">Ok</button>
         <br><br><br>
 
         <label for="observacao" id="observa">Observação</label>
         <br>
 
         <div>
-        <textarea name="observacao" id="observa1" cols="60" rows="5"></textarea>
-        <button type="submit">Limpa</button>
+        <div id="color">
+        </div>
+        <button type="submit" id="limpa" onblur="limpa()">Limpa</button>
         </div>
     
     </div>
