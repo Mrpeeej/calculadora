@@ -49,6 +49,7 @@ button{
     padding-left: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: large;
+    width: 50px;
 }
 
 #observa{
@@ -65,15 +66,12 @@ button{
     border-radius: 1ch;
 }
 
-#color{
+#resultado{
     background-color: white;
-    height: 80px;
-    width: 250px;
+    height: 190px;
+    width: 20%;
     margin-left: 10%;
     border-radius: 1ch;
-}
-
-#limpa{
-    margin-left: 10%;
-    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
 }

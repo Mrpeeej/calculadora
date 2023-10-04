@@ -15,22 +15,24 @@
         <h1>Tabuada</h1>
         <hr>
 
-        <br><br>
-        <label for="" class="num">Numero</label>
-        <input type="number" name="" id="caixaNum" min="1" autofocus>
+        <form action="">
+            <br><br>
+            <label for="" class="num">Numero</label>
+            <input type="number" name="" id="caixaNum" min="1" onblur="mult()" autofocus>
 
-        <button type="submit" onclick="mult()">Ok</button>
-        <br><br><br>
+            
+            <br><br><br>
 
-        <label for="observacao" id="observa">Observação</label>
-        <br>
+            <label for="observacao" id="observa">Resultado</label>
+            <br>
 
-        <div>
-        <div id="color">
-        </div>
-        <button type="submit" id="limpa" onblur="limpa()">Limpa</button>
-        </div>
-    
+            <div>
+                <div id="resultado">
+                </div>
+                <button type="reset" id="limpa">Limpa</button>
+            </div>
+        </form>
+
     </div>
 
     <script type="text/javascript" src="script/script.js"></script>
